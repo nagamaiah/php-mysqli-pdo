@@ -22,9 +22,6 @@ if(!$mysqli)
 }
 
 
-
-
-
 //Object oriented style:
 // without variables
 // $mysqli = new mysqli($host, $username, $password, $dbname);
@@ -75,8 +72,6 @@ $result = $stmt->get_result();
 // $rows = $result->num_rows;
 // print_r($result->fetch_object());
 // print_r($result->fetch_assoc());
-
-
 
 
 
